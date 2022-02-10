@@ -1,0 +1,91 @@
+* {
+  font-family: "Poppins";
+}
+
+.container {
+  background-color: #0b1736;
+  text-align: center;
+  min-height: 100%;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner {
+  width: 70%;
+  margin: auto;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+#url {
+  background-color: white;
+  flex: 1;
+  margin-right: 15px;
+  height: 50px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  padding: 5px 10px;
+  box-sizing: border-box;
+}
+
+#submitbtn {
+  border-radius: 10px;
+  font-size: 18px;
+  width: 100px;
+  height: 50px;
+  color: white;
+  background-color: #2a5bd7;
+  outline: none;
+  border: none;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  cursor: pointer;
+}
+
+#submitbtn:hover {
+  box-shadow: 0 3px 6px rgba(255, 255, 255, 0.16);
+}
+
+.new-link {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 20px 10px;
+}
+
+.new-link span {
+  line-height: 50px;
+}
+
+.copy-btn {
+  border-radius: 10px;
+  background-color: #edf2fe;
+  color: #2a5bd7;
+  outline: none;
+  border: none;
+  width: fit-content;
+  cursor: pointer;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  height: 50px;
+  box-sizing: border-box;
+  padding: 10px 15px;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.copy-btn:hover {
+  box-shadow: 0 3px 6px rgba(255, 255, 255, 0.16);
+}
