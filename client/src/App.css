@@ -4,7 +4,7 @@
 
 .container {
   background-color: #0b1736;
-  text-align: center;
+  text-align: left;
   min-height: 100%;
   box-sizing: border-box;
   width: 100%;
@@ -63,11 +63,9 @@
   justify-content: space-between;
   border-radius: 10px;
   box-sizing: border-box;
+  height: 300px;
+  overflow: auto;
   padding: 20px 10px;
-}
-
-.new-link span {
-  line-height: 50px;
 }
 
 .copy-btn {
@@ -88,4 +86,10 @@
 
 .copy-btn:hover {
   box-shadow: 0 3px 6px rgba(255, 255, 255, 0.16);
+}
+
+.link-elements {
+  height: 60px;
+  overflow-wrap: break-word;
+  width: 60%;
 }

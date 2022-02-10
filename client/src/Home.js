@@ -1,7 +1,6 @@
 import './App.css';
 import React, { useEffect, useState } from "react";
 import  {db}  from "./firebase"
-import NewLink from './NewLink'
 import {
     BrowserRouter as Router,
     Switch,
@@ -56,7 +55,7 @@ return(
            
             { showUrl &&
            <div className="new-link">
-                <span>{url}</span>
+                <span  className='link-elements'>{url}</span>
                 <div>
                     <Link to={`/l/${code}`} style={{marginRight: '15px'}}>
                         <span>{newUrl}</span>
